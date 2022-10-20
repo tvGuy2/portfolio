@@ -12,7 +12,8 @@
    <meta id='render-infos' appid='wawasensei-734070' lazyload='1' minifierversion='4506' cdnp='0' nodeid='-1547183187' nodetime='2022-10-13 10:40:21' processtime='0'>
     <script async src='https://www.googletagmanager.com/gtag/js?id=UA-34310363-3'></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-34310363-3');</script>
 </head>
-  <body>
+  <body class = "background">
+    
 
   <nav class="navbar">
         <ul class="navbar-menu">

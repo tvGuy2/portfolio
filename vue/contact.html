@@ -1,0 +1,102 @@
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Comment Créer un beau Formulaire de Contact en HTML & CSS</title>
+   
+    <link rel="stylesheet" href="/src/style.css" />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+  </head>
+  <body>
+    <nav class="navbar">
+        <ul class="navbar-menu">
+          <li class="navbar-item logo">
+            <a href="#" class="navbar-link">
+              <span class="navbar-title">Tanguy Vallot</span>
+              <i class="fas fa-chevron-right navbar-icon"></i>
+            </a>
+          </li>
+          <li class="navbar-item">
+            <a href="index.php" class="navbar-link">
+              <i class="fas fa-home navbar-icon"></i>
+              <span class="navbar-title">Accueil</span>
+            </a>
+          </li>
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">
+              <i class="fas fa-folder navbar-icon"></i>
+              <span class="navbar-title">Projets</span>
+            </a>
+          </li>
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">
+              <i class="fas fa-graduation-cap navbar-icon"></i>
+              <span class="navbar-title">Formation</span>
+            </a>
+          </li>
+          <li class="navbar-item">
+            <a href="/CV_Vallot_Tanguy.pdf" class="navbar-link">
+              <i class="fas fa-user navbar-icon"></i>
+              <span class="navbar-title">Mon CV</span>
+            </a>
+          </li>
+          <li class="navbar-item">
+            <a href="contact.html" class="navbar-link">
+              <i class="fas fa-phone navbar-icon"></i>
+              <span class="navbar-title">Contact</span>
+            </a>
+          </li>
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">
+              <i class="fas fa-sign-out-alt navbar-icon"></i>
+              <span class="navbar-title">Exit</span>
+            </a>
+          </li>
+            
+            
+        </ul>
+      </nav>
+      <main>
+    <form class="formito">
+      <h1>Contactez-moi</h1>
+      <div class="separation"></div>
+      <div class="corps-formulaire">
+        <div class="gauche">
+          <div class="groupe">
+            <label>Votre Prénom</label>
+            <input type="text" autocomplete="off" />
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="groupe">
+            <label>Votre adresse e-mail</label>
+            <input type="text" autocomplete="off" />
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="groupe">
+            <label>Votre téléphone</label>
+            <input type="text" autocomplete="off" />
+            <i class="fas fa-mobile"></i>
+          </div>
+        </div>
+
+        <div class="droite">
+          <div class="groupe">
+            <label>Message</label>
+            <textarea placeholder="Saisissez ici..."></textarea>
+          </div>
+        </div>
+      </div>
+
+      <div class="pied-formulaire" align="center">
+        <button>Envoyer le message</button>
+      </div>
+    </form>
+</main>
+  </body>
+</html>
